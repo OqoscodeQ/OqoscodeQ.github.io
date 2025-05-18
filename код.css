@@ -1,0 +1,50 @@
+body {
+    background-image: url('./img/3aNP.gif');
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* чтобы занять всю высоту экрана */
+}
+
+img {
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.logo h1 {
+    font-size: 3em;
+    color: #ce2ece;
+    margin-bottom: 20px;
+}
+
+
+.info p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+.center{
+    display: flex;
+  justify-content: center;
+
+}
